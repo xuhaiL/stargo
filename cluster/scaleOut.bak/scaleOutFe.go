@@ -1,17 +1,6 @@
 package scaleOutCluster
 
-import (
-    "fmt"
-    "time"
-    "stargo/sr-utl"
-    "stargo/module"
-    "stargo/cluster/startCluster"
-    "stargo/cluster/checkStatus"
-)
-
-
-
-func ScaleOutFeCluster() {
+/*func ScaleOutFeCluster() {
 
     var infoMess            string
     var err                 error
@@ -79,4 +68,4 @@ func ScaleOutFeCluster() {
     feStatusList = "List all FE status:\n" + feStatusList
     utl.Log("INFO", feStatusList)
 
-}
+}*/
